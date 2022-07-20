@@ -1,0 +1,10 @@
+2022-07-13T19:30:36+00:00 CRITICAL Uncaught Error: Class 'Endurance\WP\Module\Data\Helpers\Plugin' not found in /home2/valueloc/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/endurance/wp-module-data/src/Listeners/Plugin.php:144
+Stack trace:
+#0 /home2/valueloc/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/endurance/wp-module-data/src/Listeners/Plugin.php(121): Endurance\WP\Module\Data\Listeners\Plugin->updated(Array)
+#1 /home2/valueloc/public_html/wp-includes/class-wp-hook.php(307): Endurance\WP\Module\Data\Listeners\Plugin->installed_or_updated(Object(Plugin_Upgrader), Array)
+#2 /home2/valueloc/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/valueloc/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /home2/valueloc/public_html/wp-admin/includes/class-wp-upgrader.php(858): do_action('upgrader_proces...', Object(Plugin_Upgrader), Array)
+#5 /home2/valueloc/public_html/wp-admin/includes/class-plugin-upgrader.php(231): WP_Upgrader->run(Array)
+#6 /h in /home2/valueloc/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/endurance/wp-module-data/src/Listeners/Plugin.php on line 144
+
